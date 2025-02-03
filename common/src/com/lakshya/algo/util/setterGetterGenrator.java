@@ -8,7 +8,7 @@ public static void main(String gg[])
 {
 if(gg.length!=1 && gg.length!=2)
 {
-System.out.println("usage : java classpath path_to_jar_file;. com.krish.lalwani.util.setterGetterGenrator class_name constructor=true/false");
+System.out.println("usage : java classpath path_to_jar_file;. com.lakshya.algo.util.setterGetterGenrator class_name constructor=true/false");
 return;
 }
 if(gg.length==2 && gg[1].equalsIgnoreCase("constructor=true")==false && gg[1].equalsIgnoreCase("constructor=false")==false)
